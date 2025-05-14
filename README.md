@@ -33,7 +33,7 @@ python -m venv venv
 venv\Scripts\activate
 
 # Install dependencies
-pip install fastapi sqlalchemy uvicorn pydantic pytest
+pip install -r requirements.txt
 
 # Run the server
 uvicorn main:app --reload
